@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.nav-bar{
+    display: flex;
+    justify-content:space-between;
+    width: 1000px;
+    background-color: rgb(93, 192, 231);
+    height: 100px;
+    margin-left: 100px;
+}
+.left-bar{
+    padding-top: 25px;
+    padding-left: 20px;
+    color: white;
+}
+.right-bar ul{
+    list-style-type: none;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    width: 600px;
+    font-size: 25px;
+    padding-top: 30px;
+    padding-right:20px;
+}
+.head-text{
+    display: flex;
+    margin-left: 100px;
+    justify-content: space-between;
+    width: 1000px;
+    border-bottom: 2px black solid;
+}
+.left-head h1{
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.right-head{
+    padding-top: 35px;
+}
+#degrees{
+    border: 2px black solid;
+    height: 25px;
+}
+.main-content{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1200px;
+}
+.box-1, .box-2, .box-3, .box-4{
+    margin-top: 30px;
+    width: 175px;
+    height: 500px;
+    background-color: rgb(223, 221, 221);
+}
+.box-1t, .box-2t, .box-3t, .box-4t{
+    height: 400px;
+    padding-top: 30px;
+    padding-left: 25px;
+}
+.box-1t h3, .box-2t h3, .box-3t h3, .box-4t h3{
+    margin-left: 20px;
+}
+.box-1t h2, .box-3t h2{
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.box-2t h2, .box-4t h2{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.weather{
+    border-radius: 50%;
+    height: 120px;
+    margin: 40px 0px;
+}
+.box-1b, .box-2b, .box-3b, .box-4b{
+    display: flex;
+    justify-content: space-between;
+}
+.hot, .cold{
+    font-size: 30px;
+    margin: 0px 15px;
+}
+.hot{
+    color: red;
+}
+.cold{
+    color: blue;
+}
+.footer{
+    margin-left: 100px;
+    border: 2px black solid;
+    width: 900px;
+    height: 150px;
+    margin-top: 20px;
+    display: flex;
+    padding-left: 100px;
+}
+#cookie-pic{
+    height: 100px;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.cookie-text{
+    padding-left: 80px;
+    padding-top: 20px;
+}
+.cookie-text p{
+    margin-top: 10px;
+}
+#btn{
+    height: 30px;
+    width: 90px;
+    background-color: rgb(120, 203, 236);
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 80px;
+    box-shadow: black 2px 2px;
+}
