@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="topbar">
+        <h1>Dojonary</h1>
+        <input type="text" name="search" placeholder="Search" id="search">
+        <button onclick="logOut(this)" id="btn">Login</button>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="box-1">
+                <div class="ninja-box">
+                    <h2>ninja</h2>
+                    <span class="noun">noun</span>
+                    <br>
+                    <br>
+                    <span class="p-text">Plural:ninjas</span>
+                    <br>
+                    <input type="button" onclick="message()" value="13 likes" class="like-btn">
+                </div>
+                <div class="text-box">
+                    <p>A practitioner skilled in the <br><span class="blue-text">Japanese</span>
+                    art of <span class="blue-text">ninjutsu</span></p>
+                </div>
+            </div> 
+            <div class="box-2">
+                <div class="ninja-box">
+                    <h2>ninja</h2>
+                    <span class="noun">noun</span>
+                    <br>
+                    <br>
+                    <span class="p-text">Plural:ninjas</span>
+                    <br>
+                    <input type="button" onclick="message()" value="37 likes" class="like-btn">
+                </div>
+                <div class="text-box">
+                    <p>A <span class="blue-text">programmer</span> who breaks <br> down problems with 
+                    <span class="blue-text">zen</span>-like <br> focus</p>
+                </div>
+            </div>
+        </div>
+        <div class="row-2">
+            <div class="box-3">
+                <h2>Dojonary is <br> defined by <span>YOU</span></h2>
+                <input type="button" onclick="remove(this)" value="Add Definition" id="btn-3"> <!--this is button for add definition-->
+            </div>
+         </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
