@@ -1,0 +1,219 @@
+*{
+    margin: 0;  
+    padding: 0;
+}
+
+.topbar{
+    background-color: black;
+}
+h4{
+    font-size: 30px;
+}
+.nav{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    width: 800px;
+    margin-left: 330px;
+}
+
+.nav-links{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.btn{
+    background-color: rgb(63, 140, 216);
+    margin-right: 35px;
+    height: 25px;
+    width: 80px;
+    color: white;
+    border: solid black 2px;
+    box-shadow: 5px 2px black;
+}
+.container{
+    width: 800px;
+    margin-left: 300px;
+}
+
+.row{
+    display: flex;
+    margin-top: 20px;
+}
+.col{
+    flex: 1;
+    justify-content: space-between;
+}
+.col-2{
+    flex: 2;
+    margin: 10px;
+    padding: 10px;
+    height: 800px;
+}
+.card{
+    border: 2px gray solid;
+    height: 370px;
+    overflow: hidden;
+}
+
+.box-1{
+    background-color: blue;
+    height: 100px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-between;
+}
+
+#user{
+    height: 100px;
+    width: 100px;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 30px;
+    border-radius: 50%;
+}
+#marker{
+    height: 20px;
+    width: 20px;
+    margin-left: 30px;
+}
+h1{
+    margin-left: 30px;
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+#gear{
+    margin-top: 10px;
+    margin-left: 30px;
+    height: 20px;
+    width: 20px;
+}
+#seattle{
+    font-size: 20px;
+}
+#edit{
+    text-decoration: underline;
+    color: blue;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.education-top{
+    background-color: gray;
+    height: 25px;
+    padding: 9px;
+}
+.education{
+    color: white;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.box-2{
+    height: 150px;
+    border: 2px gray solid;
+}
+
+p{
+    margin: 10px;
+    margin-left: 30px;
+}
+.date{
+    color: gray;
+}
+
+#todd{
+    border-radius: 50%;
+    height: 40px;
+}
+.accept, .decline{
+    height: 30px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.box-3{
+    border: 2px gray solid;
+    height: 200px;
+    width: 300px;
+    margin-top: 20px;
+}
+.connections-top{
+    background-color: gray;
+    padding: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.user-line{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    width: 300px;
+    align-items: center;
+}
+
+.todd-end,{
+    display: flex;
+    align-items: center;
+}
+
+.name{
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+#adrien, #anne, #alayne, #arry, #phil, #todd{
+    border-radius: 50%;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.box-4{
+    margin-top: 20px;
+    border: 2px gray solid;
+    height: 280px;
+}
+#view-more{
+    text-decoration: underline;
+    color: blue;
+}
+.more{
+    border: 2px gray solid;
+    height: 30px;
+    padding-top: 10px;
+    padding: 5px;
+    }
+
+.btn-2{
+    color: black;
+    background-color: darkgray;
+    margin-right: 10px;
+    border-radius: 50%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 12px;
+    width: 20px;
+    height: 20px;
+}
+.btn-500{
+    color: black;
+    background-color: darkgray;
+    border-radius: 60%;
+    padding: 5px;
+    width: 50px;   
+    height: 20px;
+    padding-left: 20px;
+}
+h3{
+    margin-left: 20px;
+}

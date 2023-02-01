@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="topbar">
+        <div class="nav">
+            <div class="links">
+                <ul class="nav-links">
+                    <li><a href="#"><h4>Profile</h4></a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#" class="active">My Profile</a></li>
+                    <li><a href="#">Find Connections</a></li>
+                </ul>
+            </div>
+            <div>
+                <button class="btn">Sign Out</button>
+            </div> 
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+                <div class="card">
+                    <div class="box-1">
+                        <img src="jane-m.jpg" alt="user" id="user">
+                    </div> 
+                    <div class="bottom">
+                        <h1 id="name">Jane Doe</h1>
+                        <br>
+                        <img src="map-marker.png" alt="marker" id="marker">
+                        <span id="seattle">Seattle</span>
+                        <p>Developer | Engineer | Problem Solver</p>
+                        <p>Master of shadows and the Internet!</p>
+                        <img src="gear.png" alt="gear" id="gear">
+                        <a href="#" id="edit" onclick="editProfile()">edit profile</a>
+                    </div>
+                </div>
+                <div class="box-2">
+                    <div class="education-top">
+                        <p class="education">Education</p>
+                    </div>
+                    <div class="education-btm">
+                        <p>Coding Dojo - Full Stack Bootcamp</p>
+                        <p class="date">Dec 2019 - Mar 2020</p>
+                        <p>Triple black belt in Python, Mern, and C#</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="box-3">
+                    <div class="c-2">
+                    </div>
+                    <div class="connections-top">
+                        <span class="btn-2" id="requestnum">2</span>
+                        <h3>Connections Request</h3>
+                    </div>
+                    <div class="connections-body">
+                        <div class="user-line">
+                            <div class="todd-box" id="todd-box">
+                                <img src="todd-s.jpg" alt="todd" id="todd">
+                                <span class="name">Todd E.</span>
+                            </div>
+                            <div>
+                                <img src="accept-circle.png" alt="accept" class="accept" onclick="acceptUser('#todd-box')">
+                                <img src="close-circle.png" alt="decline" class="decline" onclick="declineUser('#todd-box')">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="connections-body">
+                        <div class="user-line">
+                            <div class="phil-box" id="phil-box">
+                                <img src="phil-s.jpg" alt="phil" id="phil">
+                                <span class="name">Phil K.</span>
+                            </div>
+                            <span class="todd-end">
+                                <img src="accept-circle.png" alt="accept" class="accept" onclick="acceptUser('#phil-box')">
+                                <img src="close-circle.png" alt="decline" class="decline" onclick="declineUser('#phil-box')">
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-4">
+                    <div class="connections-top">
+                        <span class="btn-500" id="connectnum">500</span>
+                        <h3>Your Connections</h3>
+                    </div>
+                    <div class="connections-body">
+                        <div class="user-line">
+                            <div class="adrien-box">
+                                <img src="adrien-s.jpg" alt="adrien" id="adrien">
+                                <span class="name">Adrien D</span>
+                            </div>
+                        </div>
+                        <div class="user-line">
+                            <div class="anne-box">
+                                <img src="anne-s.jpg" alt="anne" id="anne">
+                                <span class="name">Anne S</span>
+                            </div>
+                        </div>
+                        <div class="user-line">
+                            <div class="alayne-box">
+                                <img src="alayne-s.jpg" alt="alayne" id="alayne">
+                                <span class="name">Alayne T</span>
+                            </div>
+                        </div>
+                        <div class="user-line">
+                            <div class="arry-box">
+                                <img src="arry-s.jpg" alt="arry" id="arry">
+                                <span class="name">Arr Y</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="more">
+                    <span id="view-more">View More</span>
+                </div>
+            </div> 
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
